@@ -1,7 +1,7 @@
 {
   "name": "cli-runner-by-blueray453",
   "displayName": "cli-runner-by-blueray453",
-  "description": "Run CLI Tools To Filter Text Like Snippets",
+  "description": "Use CLI tools to Filter Text (Alternative to Snippets, Support Snippet Variables)",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.93.0"
@@ -13,7 +13,7 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "cli-runner-by-blueray453.helloWorld",
+      "command": "extension.cli-runner-by-blueray453",
       "title": "Hello World"
     }]
   },
@@ -24,9 +24,9 @@
   },
   "devDependencies": {
     "@types/vscode": "^1.93.0",
-    "@types/mocha": "^10.0.7",
+    "@types/mocha": "^10.0.8",
     "@types/node": "20.x",
-    "eslint": "^9.9.1",
+    "eslint": "^9.11.1",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
   }
