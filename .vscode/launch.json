@@ -11,7 +11,7 @@
 			"request": "launch",
 			"args": [
 				"--extensionDevelopmentPath=${workspaceFolder}",
-				"/home/ismail/Downloads"
+				"/home/ismail/Desktop/cli-runner-by-blueray453",
 			]
 		}
 	]
