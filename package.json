@@ -4,7 +4,7 @@
   "description": "Use CLI tools to Filter Text (Alternative to Snippets, Support Snippet Variables)",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.93.0"
+    "vscode": "1.106.2"
   },
   "categories": [
     "Other"
@@ -29,5 +29,10 @@
     "eslint": "^9.11.1",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://example.com/your/repo.git"
+  },
+  "publisher": "blueray453"
 }

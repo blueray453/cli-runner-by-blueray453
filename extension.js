@@ -14,9 +14,7 @@ function activate(context) {
 
 	context.subscriptions.push(disposable);
 
-	setTimeout(() => {
-		vscode.commands.executeCommand('extension.cli-runner-by-blueray453');
-	}, 3000);
+	vscode.commands.executeCommand('extension.cli-runner-by-blueray453');
 }
 
 function deactivate() {

@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "vsce package --out output.vsix",
+        },
+        {
+            "label": "install",
+            "type": "shell",
+            "command": "code --install-extension output.vsix",
+        },
+        {
+            "label": "build-and-install",
+            "dependsOn": [
+                "build",
+                "install"
+            ]
+        }
+    ]
+}
