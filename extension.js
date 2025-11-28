@@ -9,9 +9,6 @@ const logger = createLogger();
  */
 function activate(context) {
 
-	// 1️⃣ Create the logger
-	createLogger();
-
 	// tail -f ~/cli-runner.log
 	logger.info("Congratulations, your extension is now active!");
 	// logger.error("Something bad!");
