@@ -16,6 +16,7 @@ function activate(context) {
 	const disposable = vscode.commands.registerCommand('extension.cli-runner-by-blueray453', function () {
 		// console.log('Log!!!');
 		vscode.window.showInformationMessage('Hello World from cli-runner-by-blueray453!');
+		logger.info("Running command!");
 	});
 
 	context.subscriptions.push(disposable);
